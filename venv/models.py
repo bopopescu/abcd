@@ -17,4 +17,4 @@ class Post(db.Model):
         if self.title:
             self.slug = slugify(self.title)
     def __repr(selfself):
-        return '<Post id: {}, title: {}>'.format(self.id,self.title)
+        return '<Post id: {}, title: {}>'.format(self.id,self.title);
